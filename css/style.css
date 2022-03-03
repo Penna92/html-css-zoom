@@ -1,0 +1,59 @@
+/* reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+
+.debug{
+    border: 1px solid black;
+}
+.flex-container-nowrap{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items:center;
+}
+.flex-container-wrap{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items:center;    
+}
+
+/* header */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;    
+    background-color: black;
+}
+
+/* main */
+
+main{
+    width: 100%;
+    height: calc(100vh - 180px);
+    margin-top: 80px;
+    background-color: red;
+}
+/* footer */
+
+footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 100px;    
+    background-color: grey;
+}
