@@ -104,7 +104,6 @@ footer {
   text-align: center;
   height: 80px;
   display: flex;
-  overflow-y: hidden;
 }
 .left-footer,
 .right-footer {
